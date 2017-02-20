@@ -17,6 +17,6 @@ public class UserController extends BaseController {
     @RequestMapping
     public String index( @PathVariable String userName){
         //动态加载当前登录者
-        return "user/index.html";
+        return "index/index.html";
     }
 }

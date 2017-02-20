@@ -1,19 +1,20 @@
-package com.xiangyu.web.controller.index;
+package com.xiangyu.web.controller.test;
 
 import com.xiangyu.ext.base.BaseController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by xiangyu on 2016/11/3.
+ * Created by xiangyu on 2016/11/4.
  */
-@Controller
 @SuppressWarnings("unused")
-@RequestMapping("/index")
-public class LoginController extends BaseController {
+@Controller
+@RequestMapping("/test")
+public class testController extends BaseController {
 
     @RequestMapping
     public String index(){
-        return "index/index.html";
+        return "test/test.html";
     }
+
 }
